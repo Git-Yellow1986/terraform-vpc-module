@@ -7,7 +7,7 @@ variable "environment" { # Environment variable
 }
 
 variable "vpc_cidr" { # VPC CIDR block variable
-  default = "0.0.0.0/0"
+  default = "10.0.0.0/16"
 }
 
 variable "enable_dns-hostname" { # Enable DNS hostnames in the VPC
